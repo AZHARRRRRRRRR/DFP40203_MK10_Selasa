@@ -7,6 +7,8 @@ def renamefile():
 
     os.rename(old_file, new_file)
 
+    print(new_file)
+
 
 if __name__ == '__main__':
     renamefile()
